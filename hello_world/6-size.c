@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-printf("%lu\n", sizeof(char));
-printf("%lu\n", sizeof(int));
-printf("%lu\n", sizeof(float));
-printf("%lu", sizeof(double));
+printf("Size of an int: %zu bytes\n", sizeof(intType));
+printf("Size of a float: %zu bytes\n", sizeof(floatType));
+printf("Size of a double: %zu bytes\n", sizeof(doubleType));
+printf("Size of a char: %zu byte\n", sizeof(charType));
 return (0);
 }
