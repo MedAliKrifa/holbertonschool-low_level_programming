@@ -2,7 +2,7 @@
 /**
  * main - useless function
  *
- * Return: Always (0) sucesses
+ * Return: 0
  */
 int main(void)
 {
