@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - a proces that show u the size of the file
+ * main - useless function
  *
  * Return: Always (0) sucesses
  */
