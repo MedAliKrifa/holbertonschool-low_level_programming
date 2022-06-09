@@ -3,7 +3,7 @@
  * main - print alphabet in lowercase
  * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
 char x;
 for (x = 'a'; x <= 'z'; x++)
