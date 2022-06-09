@@ -22,6 +22,5 @@ putchar(i);
 putchar(l);
 putchar(m);
 putchar('\n');
-
 return (0);
 }
