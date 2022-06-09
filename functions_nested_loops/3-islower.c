@@ -2,6 +2,7 @@
 /**
  * _islower - _islower to show if character is lowcase
  * Return: On success 1.
+ * @c: integer
  */
 int _islower(int c)
 {
