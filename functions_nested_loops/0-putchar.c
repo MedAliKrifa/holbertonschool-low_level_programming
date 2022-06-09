@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 /**
  * main - print _putchar
  * Return: 0
@@ -23,5 +21,7 @@ putchar(o);
 putchar(i);
 putchar(l);
 putchar(m);
+putchar('\n');
+
 return (0);
 }
