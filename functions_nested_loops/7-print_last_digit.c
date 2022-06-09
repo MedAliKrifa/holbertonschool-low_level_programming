@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * print_last_digit - print_last_digit
  * Return: On success 1.
