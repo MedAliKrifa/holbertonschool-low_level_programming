@@ -2,19 +2,18 @@
 /**
  * print_sign - print_sign if positive or negative or 0
  * Return: On success 1.
- * @n: integer
  */
 int _abs(int)
 {
-int n;
-if (n < 0)
+
+if (int < 0)
 {
-n = (-1) * n;
-_putchar('n');
+n = (-1) * int;
+_putchar('int');
 }
 else
 {
-_putchar('n')
+_putchar('int');
 }
 return (0);
 }
