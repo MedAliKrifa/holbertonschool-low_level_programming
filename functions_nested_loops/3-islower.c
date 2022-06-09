@@ -2,7 +2,7 @@
 /**
  * print_alphabet - print alphabet in lowercase
  */
-int print_alphabet(main)
+int print_alphabet(print_alphabet)
 {
 char x;
 if (x >= 'a' && x <= 'z')
