@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_sign - print_sign if positive or negative or 0
+ * _abd - print_sign if positive or negative or 0
  * Return: On success 1.
  * @n: integer
  */
