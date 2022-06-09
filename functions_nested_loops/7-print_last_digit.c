@@ -7,7 +7,7 @@
  */
 int print_last_digit(int n)
 {
-int z = abs(n) % 10;
+int z = labs(n) % 10;
 _putchar('0' + z);
 return (z);
 }
