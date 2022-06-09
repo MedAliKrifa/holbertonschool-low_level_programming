@@ -3,7 +3,7 @@
  * main - print whatever the numb is positive or negative
  * Return: 0
  */
-in main(void)
+int main(void)
 {
 int i;
 i = 0;
