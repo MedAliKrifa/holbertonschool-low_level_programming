@@ -2,7 +2,7 @@
 /**
  * _islower - _islower to show if character is lowcase
  */
-int _islower(void)
+int _islower(int c)
 {
 char x;
 if (x >= 'a' && x <= 'z')
