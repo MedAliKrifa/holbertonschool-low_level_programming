@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet - print alphabet in lowercase
+ * _islower - _islower to show if character is lowcase
  */
-int print_alphabet(void)
+int _islower(void)
 {
 char x;
 if (x >= 'a' && x <= 'z')
