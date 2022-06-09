@@ -3,6 +3,7 @@
 /**
  * main - causes an infinite loop
  * Return: 0
+ * @o: to avoid loop
  */
 
 int main(void)
