@@ -3,17 +3,17 @@
  * print_sign - print_sign if positive or negative or 0
  * Return: On success 1.
  */
-int _abs(int)
+int _abs(int n)
 {
 
-if (int < 0)
+if (n < 0)
 {
 n = (-1) * int;
-_putchar('int');
+_putchar('n');
 }
 else
 {
-_putchar('int');
+_putchar('n');
 }
 return (0);
 }
