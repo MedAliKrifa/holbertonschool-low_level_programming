@@ -7,8 +7,16 @@
  */
 int main(void)
 {
-int a = 252;
-printf("%x", a);
-printf("\n");
+char x;
+char a;
+for (x = '0'; x <= '9'; x++)
+{
+putchar(x);
+}
+for (a = 'a'; a <= 'f'; a++)
+{
+putchar(a);
+}
+putchar('\n');
 return (0);
 }
