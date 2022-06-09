@@ -4,8 +4,7 @@
  */
 int _islower(int c)
 {
-char x;
-if (x >= 'a' && x <= 'z')
+if (c < 97)
 {
 return (1);
 }
