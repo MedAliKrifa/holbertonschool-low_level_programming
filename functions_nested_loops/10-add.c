@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * print_last_digit - print_last_digit
+ * add - sum of two int
  * Return: On success 1.
  * @n: integer
+ * @z: integer
  */
 int add(int n, int z)
 {
