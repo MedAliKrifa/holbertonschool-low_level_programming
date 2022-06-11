@@ -4,11 +4,11 @@
 /**
  * print_square - print_square to print a square using # and loop
  * Return: 0.
- * @n : integer
+ * @size : integer
  */
 void print_square(int size)
 {
-int i = 1;
+int i = 0;
 int j;
 if (size > 0)
 {
