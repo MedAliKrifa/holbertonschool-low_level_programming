@@ -23,10 +23,6 @@ _putchar('\n');
 i++;
 }
 }
-else if (n == 0)
-{
-_putchar('\n');
-}
 else
 {
 _putchar('\n');
