@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_most_numbers - print_most_numbers to print numbs from 0 to 9
+ * print_line - print_line to print a line using _  and loop
  * Return: 0.
  */
 void print_line(int n)
