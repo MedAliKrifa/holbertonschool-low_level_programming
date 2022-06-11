@@ -4,6 +4,7 @@
 /**
  * print_line - print_line to print a line using _  and loop
  * Return: 0.
+ * @n : integer
  */
 void print_line(int n)
 {
