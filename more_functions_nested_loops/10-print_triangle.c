@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_diagonal - print_diagonal to print a diagonal using \\ and loop
+ * print_triangle - print_triangle to print a triangle using #
  * Return: 0.
  * @n : integer
  */
