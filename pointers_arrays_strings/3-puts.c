@@ -4,8 +4,4 @@
  * Return: 0.
  * @s: pointer
  */
-void _puts(char *str)
-{
-puts(str);
-_putchar('\n');
-}
+void _puts(char *str) { puts(str); }
