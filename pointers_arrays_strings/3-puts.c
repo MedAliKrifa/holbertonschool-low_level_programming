@@ -2,6 +2,6 @@
 /**
  * _puts - _puts to print a quote
  * Return: 0.
- * @s: pointer
+ * @str: pointer
  */
 void _puts(char *str) { puts(str); }
