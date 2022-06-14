@@ -18,7 +18,7 @@ _putchar(str[i]);
 }
 else
 {
-for (i = length / 2 - 1; i < length; i++)
+for (i = length / 2 - 1; i < length - 1; i++)
 {
 _putchar(str[i]);
 }
