@@ -1,9 +1,9 @@
 #include "main.h"
 #include <string.h>
 /**
- * _puts - _puts to print a quote
+ * print_rev - print_rev to print a quote in reverse
  * Return: 0.
- * @str: pointer
+ * @s: pointer
  */
 void print_rev(char *s)
 {
