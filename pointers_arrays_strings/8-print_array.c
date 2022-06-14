@@ -2,7 +2,8 @@
 /**
  * print_array - print_array to print n element of an array
  * Return: 0.
- * @str: pointer
+ * @a: pointer
+ * @n: integer
  */
 void print_array(int *a, int n)
 {
