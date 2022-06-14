@@ -16,7 +16,7 @@ printf("%d", a[i]);
 }
 else
 {
-if (i < n)
+if (i < n && i != 0)
 {
 putchar(',');
 }
