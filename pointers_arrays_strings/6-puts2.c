@@ -8,11 +8,9 @@ int _strlen(char *s);
 void puts2(char *str)
 {
 int i, length;
-char s[] = "";
 length = _strlen(str);
 for (i = 0; i < length; i += 2)
 _putchar(str[i]);
-str[i / 2] = s[i];
 _putchar('\n');
 }
 
