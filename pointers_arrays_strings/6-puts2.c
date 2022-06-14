@@ -3,12 +3,12 @@ int _strlen(char *s);
 /**
  * puts2 - puts2 to print a quote in reverse
  * Return: 0.
- * @s: pointer
+ * @str: pointer
  */
 void puts2(char *str)
 {
 int i, length;
-char s[32] = "";
+char s[] = "";
 length = _strlen(str);
 for (i = 0; i < length; i += 2)
 _putchar(str[i]);
