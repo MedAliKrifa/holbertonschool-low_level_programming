@@ -16,7 +16,11 @@ printf("%d", a[i]);
 }
 else
 {
-printf("%d,", a[i]);
+if (i < n)
+{
+putchar(',');
+}
+printf("%d", a[i]);
 printf(" ");
 }
 }
