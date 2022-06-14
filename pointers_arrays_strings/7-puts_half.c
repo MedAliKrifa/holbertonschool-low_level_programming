@@ -23,6 +23,7 @@ for (i = length / 2 - 1; i < length; i++)
 _putchar(str[i]);
 }
 }
+_putchar('\n');
 }
 /**
  * _strlen - _strlen to calculate length of a string
