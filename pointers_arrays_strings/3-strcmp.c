@@ -17,8 +17,8 @@ return (0);
 a1 = s1[i];
 a2 = s2[i];
 if (a1 > a2)
-return (15);
+return (1);
 if (a2 > a1)
-return (-15);
+return (-1);
 }
 }
