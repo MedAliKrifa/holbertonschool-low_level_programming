@@ -12,3 +12,4 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 void rev_string(char *s);
 char *_strcpy(char *dest, char *src);
+char *_strcat(char *dest, char *src);
