@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * _puts - _puts to print a quote
+ * _strcpy - _strcpy to copy a string
  * Return: 0.
- * @str: pointer
+ * @dest: pointer
+ * @src: pinter
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -14,5 +15,6 @@ dest[i] = src[i];
 
 dest[i] = '\0';
 printf("%s", dest);
+printf("\n");
 return 0;
 }
