@@ -1,21 +1,22 @@
 #include "main.h"
 int _strlen(char *s);
 /**
- * _strcat - _strcat to concatenate 2 strings
+ * _strncat - _strncat to concatenate two string from an int n
  * Return: 0.
  * @dest: pointer
  * @src: pointer
+ * @n: integer
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 int i;
 int length = _strlen(dest);
-for (i = 0; src[i] != 0; i++)
+if (n > length)
+n = length;
+for (i = 0; i < n; i++)
 {
-dest[length] = src[i];
-length++;
+dest[length + i] = src[i];
 }
-dest[length] = '\0';
 return (dest);
 }
 

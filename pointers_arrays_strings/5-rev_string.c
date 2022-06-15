@@ -10,10 +10,11 @@ void rev_string(char *s)
 int i, length;
 length = _strlen(s);
 for (i = length - 1; i >= 0; i--)
+{
 putchar(s[i]);
+}
 putchar('\n');
 }
-
 /**
  * _strlen - _strlen to calculate length of a string
  * Return: 0.
