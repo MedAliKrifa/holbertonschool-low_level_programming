@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _strncpy - _strncpy to copy a string from n (int)
+ * Return: value of dest.
  * @dest: pointer
  * @src: pointer
  * @n: integer
