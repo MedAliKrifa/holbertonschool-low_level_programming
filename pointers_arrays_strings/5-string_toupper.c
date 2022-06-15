@@ -1,13 +1,12 @@
 #include "main.h"
 /**
- * reverse_array - reverse_array to reverse elements of an array
- * @a: pointer
- * @n: integer
+ * string_toupper - string_toupper to reverse strings from lowcase to uppercase
+ * @s: pointer
  */
 char *string_toupper(char *s)
 {
 int i;
-while (s[i] != '\0')
+while (s[i])
 {
 if (s[i] >= 'a' && s[i] <= 'z')
 {
