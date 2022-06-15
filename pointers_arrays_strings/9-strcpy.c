@@ -14,7 +14,6 @@ dest[i] = src[i];
 }
 
 dest[i] = '\0';
-printf("%s", dest);
+return (dest);
 printf("\n");
-return 0;
 }
