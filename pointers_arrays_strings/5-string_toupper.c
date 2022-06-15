@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * string_toupper - string_toupper to reverse strings from lowcase to uppercase
- * return: value of s
+ * Return: value of s
  * @s: pointer
  */
 char *string_toupper(char *s)
