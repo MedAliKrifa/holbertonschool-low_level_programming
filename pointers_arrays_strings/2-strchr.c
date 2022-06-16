@@ -16,5 +16,9 @@ return (s + i);
 }
 s++;
 }
+if (s[i] == c && s[i] == 0)
+{
+return (s);
+}
 return ('\0');
 }
