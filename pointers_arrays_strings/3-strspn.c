@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strspn - _strspn to copy a memory area
- * Return: value of s.
+ * Return: value of i.
  * @s: pointer
  * @accept: pointer
  */
@@ -22,9 +22,9 @@ j++;
 }
 if (!*(accept + j))
 {
-return i;
+return (i);
 }
 i++;
 }
-return i;
+return (i);
 }
