@@ -22,7 +22,7 @@ while (*haystack && *needle)
 {
 if (*haystack != *needle)
 {
-return 0;
+return (0);
 }
 
 haystack++;
