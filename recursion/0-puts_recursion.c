@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _memset - _memset to fill a memory with constant bytes
+ * _puts_recursion - _puts_recursion to print string followed by new line
  * Return: value of s.
  * @s: char
  */
