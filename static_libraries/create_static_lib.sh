@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -c liball.a *.c
+gcc -c -Wall -Werror -Wextra *.c
+ar -rc libname.a *.o
