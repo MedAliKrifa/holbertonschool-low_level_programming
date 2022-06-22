@@ -31,8 +31,6 @@ int check_prime(int n, int x)
  */
 int is_prime_number(int n)
 {
-int i;
-i = 1;
 if (n < 0)
 
 return (0);
@@ -43,6 +41,6 @@ else if (n == 1 || n == 0)
 }
 else
 {
-return (check_prime(n, i + 1));
+return (check_prime(n, 2));
 }
 }
