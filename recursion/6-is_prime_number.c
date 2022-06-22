@@ -9,17 +9,17 @@ int check_prime(int n, int x);
 int check_prime(int n, int x)
 {
 {
-	if(x == (n / 2))
+	if (x == n / 2)
 	{
 		return (1);
 	}
-	else if(n % x == 0)
+	if ((n % x) == 0)
 	{
-			return (0);
+		return (0);
 	}
 	else
 	{
-		return (check_prime(n,x + 1));
+		return (check_prime(n, x + 1));
 	}
 }
 }
@@ -33,10 +33,16 @@ int is_prime_number(int n)
 {
 int i;
 i = 1;
-if(n < 0 )
+if (n < 0)
+
 return (0);
+
 else if (n == 1 || n == 0)
-return (0);
-else 
+{
+	return (0);
+}
+else
+{
 return (check_prime(n, i + 1));
+}
 }
