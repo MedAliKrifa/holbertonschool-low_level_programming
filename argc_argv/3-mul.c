@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - main to print the arguments of the function
+ * main - main to multiply two integers
  * @argc: integer
  * @argv: array of pointer
  * Return: 0.
