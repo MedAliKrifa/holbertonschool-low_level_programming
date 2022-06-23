@@ -4,11 +4,11 @@
  * main - main to print the arguments of the function
  * @argc: integer
  * @argv: array of pointer
+ * Return: 0.
  */
 int main(int argc, char *argv[])
 {
-    (void)argv;
-    printf("%d ", argc - 1);
-    printf("\n");
-    return (0);
+	(void)argv;
+	printf("%d\n", argc - 1);
+	return (0);
 }
