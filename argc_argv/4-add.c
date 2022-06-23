@@ -10,7 +10,9 @@
 int main(int argc, char *argv[])
 {
 	int i, sum;
+
 	sum = 0;
+
 	if (argc > 0)
 	{
 		for (i = 1; argv[i] != NULL; ++i)
