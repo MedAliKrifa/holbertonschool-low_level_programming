@@ -4,6 +4,7 @@
  * main - main to print its name
  * @argc: integer
  * @argv: array of pointer
+ * Return: 0. 
  */
 int main(int argc, char *argv[])
 {
