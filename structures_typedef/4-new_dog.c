@@ -1,52 +1,49 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "dog.h"
-int __strlen(char *s);
-char *__strcpy(char *dest, char *src);
+#include <stdlib.h>
+int _strlen(char *s);
+char *_strcpy(char *dest, char *src);
 /**
- * new_dog - new_dog to create a new dog
- * @owner: owner name of type char (pointer)
- * @age: age of dog type float
- * @name: name of dog of type char (pointer)
- * Return: value of dog.
+ * new_dog - makes a new dog, memory and all
+ * @name: name to create mem and assign to for dog
+ * @age: age to assign to for dog
+ * @owner: owner to create mem and assign to for dog
+ *
+ * Return: pointer to new dog_t (struct dog)
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *ndog;
+	dog_t *new_dog;
 
-	ndog = malloc(sizeof(dog_t));
-
-	new_d = malloc(sizeof(dog_t));
-	if (new_d == NULL)
+	new_dog = malloc(sizeof(dog_t));
+	if (new_dog == NULL)
 		return (NULL);
 	if (name == NULL)
-		new_d->name = NULL;
+		new_dog->name = NULL;
 	else
 	{
-		new_d->name = malloc(_strlen(name) + 1);
-		if (new_d->name == NULL)
+		new_dog->name = malloc(_strlen(name) + 1);
+		if (new_dog->name == NULL)
 		{
-			free(new_d);
+			free(new_dog);
 			return (NULL);
 		}
-		new_d->name = _strcpy(new_d->name, name);
+		new_dog->name = _strcpy(new_dog->name, name);
 	}
 	if (owner == NULL)
-		new_d->owner = NULL;
+		new_dog->owner = NULL;
 	else
 	{
-		new_d->owner = malloc(_strlen(owner) + 1);
-		if (new_d->owner == NULL)
+		new_dog->owner = malloc(_strlen(owner) + 1);
+		if (new_dog->owner == NULL)
 		{
-			free(new_d->name);
-			free(new_d);
+			free(new_dog->name);
+			free(new_dog);
 			return (NULL);
 		}
-		new_d->owner = _strcpy(new_d->owner, owner);
+		new_dog->owner = _strcpy(new_dog->owner, owner);
 	}
-	new_d->age = age;
-	return (new_d);
+	new_dog->age = age;
+	return (new_dog);
 }
 /**
  * _strlen - gets len of str
@@ -63,7 +60,7 @@ int _strlen(char *s)
 	return (i);
 }
 /**
- * __strcpy - copies string from src to dest
+ * _strcpy - copies string from src to dest
  *
  * @dest: pointer to destination of string
  * @src: pointer to source string to copy from
