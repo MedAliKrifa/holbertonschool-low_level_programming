@@ -17,36 +17,36 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	ndog = malloc(sizeof(dog_t));
 
-	if (ndog == NULL)
+	new_d = malloc(sizeof(dog_t));
+	if (new_d == NULL)
 		return (NULL);
 	if (name == NULL)
-		ndog->name = NULL;
+		new_d->name = NULL;
 	else
 	{
-			ndog->name = malloc(sizeof(_strlen(name) + 1));
-			if (ndog->name == NULL)
-			{
-				free(ndog);
-				return (NULL);
-			}
-			ndog->name = _strcpy(ndog->name, name);
+		new_d->name = malloc(_strlen(name) + 1);
+		if (new_d->name == NULL)
+		{
+			free(new_d);
+			return (NULL);
+		}
+		new_d->name = _strcpy(new_d->name, name);
 	}
 	if (owner == NULL)
-		ndog->owner = NULL;
-
+		new_d->owner = NULL;
 	else
 	{
-			ndog->owner = malloc(sizeof(_strlen(owner) + 1));
-			if (ndog->owner == NULL)
-			{
-				free(ndog->name);
-				free(ndog);
-				return (NULL);
-			}
-			ndog->owner = _strcpy(ndog->owner, owner);
+		new_d->owner = malloc(_strlen(owner) + 1);
+		if (new_d->owner == NULL)
+		{
+			free(new_d->name);
+			free(new_d);
+			return (NULL);
 		}
-	ndog->age = age;
-	return (ndog);
+		new_d->owner = _strcpy(new_d->owner, owner);
+	}
+	new_d->age = age;
+	return (new_d);
 }
 /**
  * _strlen - gets len of str
