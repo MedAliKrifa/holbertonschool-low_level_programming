@@ -1,12 +1,15 @@
 #include "3-calc.h"
 /**
- * main - main
+ * main - main function for calculation
+ *@argc: integer
+ *@argv: char
  * Return: 0
  */
 int main(int argc, char *argv[])
 {
 	int numb1, numb2, result;
 	int (*func)(int, int);
+
 	if (argc != 4)
 	{
 		printf("Error\n");
