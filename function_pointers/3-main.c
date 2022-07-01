@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	numb1 = atoi(argv[1]);
-	numb2 = atoi(argv[2]);
+	numb2 = atoi(argv[3]);
 	func = get_op_func(argv[2]);
 	if (func == NULL)
 	{
