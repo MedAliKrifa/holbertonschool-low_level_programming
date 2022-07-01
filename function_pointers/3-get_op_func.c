@@ -1,9 +1,8 @@
 #include "3-calc.h"
 /**
- * op_add - op_add to add two int
- * @a: first in
- * @b: second int
- * Return: a + b
+ * get_op_func - to get the right function
+ * @s: array
+ * Return: null || value of f in op
  */
 int (*get_op_func(char *s))(int, int)
 {
@@ -14,5 +13,12 @@ int (*get_op_func(char *s))(int, int)
         {"/", op_div},
         {"%", op_mod},
         {NULL, NULL}};
-    int i;
+    int i = 0;
+    while (ops[i].op < 5)
+    {
+        if (strcmp(ops[i].op, s) == 0)
+            return (ops[i].f);
+        i++;
+    }
+    return (NULL);
 }
