@@ -63,9 +63,9 @@ void print_all(const char *const format, ...)
 				   {"s", print_string},
 				   {NULL, NULL}};
 
-	va_start(ap, format);
 	while (format != NULL && format[i])
 	{
+		va_start(ap, format);
 		while (x < 4 && format[i] != *(p[x].type))
 			x++;
 		if (x < 4)
