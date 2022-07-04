@@ -1,0 +1,2 @@
+#This is making file
+    all: gcc main.c school.c -o school
