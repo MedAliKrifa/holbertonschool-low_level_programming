@@ -1,23 +1,24 @@
 #include "lists.h"
 /**
- * sum_them_all - sum_them_all to sum all parameters
- * @n: const int
- * Return: sum of all parameters
+ * print_list - print_list to print all nodes
+ * @h: head node
+ * Return: value of i
  */
 size_t print_list(const list_t *h)
 {
-    int i = 0;
-    while (h != NULL)
-    {
-        if (h->str == NULL)
-        {
-            printf("[0] (nil)\n");
-        }
-        else
-            printf("[%d] %s\n", h->len, h->str);
+	int i = 0;
 
-        h = h->next;
-        i++;
-    }
-    return (i);
+	while (h != NULL)
+	{
+		if (h->str == NULL)
+		{
+			printf("[0] (nil)\n");
+		}
+		else
+			printf("[%d] %s\n", h->len, h->str);
+
+		h = h->next;
+		i++;
+	}
+	return (i);
 }
