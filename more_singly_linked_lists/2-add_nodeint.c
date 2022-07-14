@@ -1,7 +1,8 @@
 #include "lists.h"
 /**
- * listint_len - listint_len to print number of elemnts of a list
- * @h: head node
+ * add_nodeint - add_nodeint to add node at the beginning
+ * @head: head node
+ * @n: integer
  * Return: value of i
  */
 listint_t *add_nodeint(listint_t **head, const int n)
