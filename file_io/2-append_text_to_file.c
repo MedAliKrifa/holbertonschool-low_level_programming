@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * append_text_to_file - append_text_to_file to create a text file and append it
+ * append_text_to_file - to create a text file and append it
  * @filename: pointer
  * @text_content: pointer
  * Return: 1 on success
