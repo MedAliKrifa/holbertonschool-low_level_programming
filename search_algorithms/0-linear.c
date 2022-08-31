@@ -4,7 +4,7 @@
  * @array: array of int
  * @size: size of array
  * @value: values inside the array
- * Return : value of i or -1
+ * Return: value of i or -1
  */
 int linear_search(int *array, size_t size, int value)
 {
